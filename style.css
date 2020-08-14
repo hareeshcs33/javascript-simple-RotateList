@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    /* transition: 1s; */
 }
 
 .main {
@@ -118,11 +119,12 @@ nav {
 #upBtn {
     width: 15px;
     cursor: pointer;
+    margin: auto;
 }
 #downBtn {
     width: 15px;
     cursor: pointer;
-    /* transform: rotate(180deg); */
+    margin: auto;
 }
 .overlay {
     width: 0;
@@ -135,4 +137,21 @@ nav {
     left: 0;
     top: 0;
     z-index: 1;
+}
+.up-arrow,
+.down-arrow {
+    color: #fff;
+    font-size: 28px;
+    transition: 1s;
+}
+.up-arrow:hover,
+.down-arrow:hover {
+    color: #000;
+    cursor: pointer;
+}
+.up-arrow {
+    transform: rotate(90deg);
+}
+.down-arrow {
+    transform: rotate(-90deg);
 }
