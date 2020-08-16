@@ -1,4 +1,4 @@
-console.log("")
+console.log("Rotate list")
 
 var circle = document.getElementById("circle");
 var upBtn = document.getElementById("upBtn");
